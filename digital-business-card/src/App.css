@@ -1,8 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
 .App {
   text-align: center;
 }
 
 body {
   all: unset;
+  background-color: #1c1c1c;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+}
+
+.content-container {
+  margin: 65px;
+  padding: 44px 116px;
+  width: auto;
   background-color: #23252c;
+}
+
+.card {
+  height: 780px;
+  width: 317px;
+  background-color: #1a1b21;
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.title {
+  color: #f3bf99;
+  font-weight: 300;
+  margin: 0 0 13px 0;
+}
+
+.link {
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-group {
+  display: block;
+}
+
+.btn-group > button {
+  margin: 20px 15px;
+}
+
+.btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.email-btn {
+  background-color: white;
+  color: #374151;
+}
+
+.media-btn {
+  background-color: #5093e2;
+  color: white;
+}
+
+.content {
+  color: white;
+  width: 247px;
+  height: 201;
+  text-align: left;
+  margin: 20px 33px;
+}
+
+.section-title {
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.footer {
+  height: 66px;
+  width: 317px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
 }
