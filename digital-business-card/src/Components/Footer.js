@@ -1,8 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
-  return <footer className="footer"></footer>;
+  return (
+    <footer className="footer">
+      <p className="footer-note">@Scrimba Tutorials</p>
+    </footer>
+  );
 };
 
 export default Footer;
